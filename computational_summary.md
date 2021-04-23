@@ -6,7 +6,7 @@ See the [README in the top directory](../../README.md)
 for details.
 
 Here is the DAG of the computational workflow:
-![dag.svg](dag.svg)
+
 
 Here is the Markdown output of each Jupyter notebook in the
 workflow:
@@ -23,35 +23,30 @@ workflow:
 
 4. [QC analysis of sequencing counts](analyze_counts.md).
 
-5. [Computation of ACE2-binding *K*<sub>D</sub>](compute_binding_Kd.md).
-   Creates files giving the ACE2-binding of each barcoded variant
-   [of SARS-CoV-2 RBD](../binding_Kds/binding_Kds.csv) and of
-   [the homologs](../binding_Kds/binding_Kds_homologs.csv).
-
-6. [Computation of expression mean fluorescence](compute_expression_meanF.md).
+5. [Computation of expression mean fluorescence](compute_expression_meanF.md).
    Creates files giving the expression of each barcoded variant
    [of SARS-CoV-2 RBD](../expression_meanFs/expression_meanFs.csv) and of
    [the homologs](../expression_meanFs/expression_meanFs_homologs.csv).
 
-7. [Global epistasis decomposition of binding effects](global_epistasis_binding.md).
+6. [Global epistasis decomposition of binding effects](global_epistasis_binding.md).
 
-8. [Global epistasis decomposition of expression effects](global_epistasis_expression.md).
+7. [Global epistasis decomposition of expression effects](global_epistasis_expression.md).
 
-9. [Calculation of final single mutant effects on binding and expression](single_mut_effects.md).
+8. [Calculation of final single mutant effects on binding and expression](single_mut_effects.md).
    Creates files giving the estimated expression and ACE2-binding of
    [single mutants to SARS-CoV-2 RBD](../single_mut_effects/single_mut_effects.csv)
    and [the homologs](../single_mut_effects/homolog_effects.csv).
 
-10. [Structure-function analysis of mutational effects](structure_function.md).
+9. [Structure-function analysis of mutational effects](structure_function.md).
 
-11. [Logo plots of mutational effects](logoplots_of_muteffects.md).
+10. [Logo plots of mutational effects](logoplots_of_muteffects.md).
     Also creates input files for `dms-view` of [RBD](../dms_view/dms-view_table_RBD.csv) and [spike](../dms_view/dms-view_table_spike.csv), the visualizations of which can be seen [here](https://jbloomlab.github.io/SARS-CoV-2-RBD_DMS/structures/).
 
-12. [Mutational constraint within RBD antibody epitopes](antibody_epitopes.md)
+11. [Mutational constraint within RBD antibody epitopes](antibody_epitopes.md)
 
-13. [RBD variation across the sarbecovirus clade](sarbecovirus_diversity.md)
+12. [RBD variation across the sarbecovirus clade](sarbecovirus_diversity.md)
 
-14. [RBD variation in circulating SARS-CoV-2 isolates](circulating_variants.md).
+13. [RBD variation in circulating SARS-CoV-2 isolates](circulating_variants.md).
 
-15. [Make interactive heat map](interactive_heatmap.md).
+14. [Make interactive heat map](interactive_heatmap.md).
     Creates [this heatmap](https://jbloomlab.github.io/SARS-CoV-2-RBD_DMS/).
