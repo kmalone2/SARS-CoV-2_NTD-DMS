@@ -2,7 +2,7 @@
 
 Analysis run by [Snakefile](../../Snakefile)
 using [this config file](../../config.yaml).
-See the [README in the top directory](./README.md)
+See the [README in the top directory](../README.md)
 for details.
 
 Here is the DAG of the computational workflow:
