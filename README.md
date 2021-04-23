@@ -8,5 +8,5 @@ Modeled on the full study of [deep mutational scanning of SARS-CoV-2 RBD](https:
 
 ## Summary of Workflow and Results
 
-Summary of computational analysis can be found [here](./computational_summary.md). This is the best way to understand the analysis and orient the results. 
+Summary of computational analysis can be found [here](./results/computational_summary.md). This is the best way to understand the analysis and orient the results. 
 
